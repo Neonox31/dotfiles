@@ -7,7 +7,7 @@
   st = status
   cl = clone
   ci = commit
-  cim = comit --amend
+  cim = commit --amend
   cimne = commit --amend --no-edit
   co = checkout
   cob = checkout -b	
@@ -29,8 +29,8 @@
   f = fetch
 
 [user]
-  name = #WEBER Logan
-  email = #weberlogan@gmail.com
+  #name = WEBER Logan
+  #email = 
 
 [push]
   default = simple
