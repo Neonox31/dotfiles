@@ -1,0 +1,36 @@
+[profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+foreground-color='#F8F8F2'
+visible-name='Par défaut'
+login-shell=true
+palette=['#272822', '#F92672', '#A6E22E', '#F4BF75', '#66D9EF', '#AE81FF', '#A1EFE4', '#F8F8F2', '#75715E', '#F92672', '#A6E22E', '#F4BF75', '#66D9EF', '#AE81FF', '#A1EFE4', '#F9F8F5']
+badge-color-set=false
+show-scrollbar=false
+use-system-font=true
+cursor-colors-set=false
+highlight-colors-set=false
+use-theme-colors=false
+bold-color-set=false
+terminal-bell='none'
+background-color='#272822'
+background-transparency-percent=5
+dim-transparency-percent=29
+
+[/]
+prompt-on-close=true
+recent-session-files=['/home/lolo/Documents/default', '/home/lolo/Documents/test']
+copy-on-select=true
+terminal-title-style='none'
+window-state=43908
+theme-variant='dark'
+control-scroll-zoom=false
+enable-wide-handle=false
+close-with-last-session=true
+window-save-state=true
+focus-follow-mouse=true
+window-style='borderless'
+
+[keybindings]
+session-switch-to-terminal-left='<Shift>Left'
+session-switch-to-terminal-down='<Shift>Down'
+session-switch-to-terminal-right='<Shift>Right'
+session-switch-to-terminal-up='<Shift>Up'
