@@ -12,6 +12,7 @@ set -gx JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 # Aliases
 ## System
 alias ll='ls -lah'
+alias rcp='rsync -avhr --info=progress2'
 
 ## Kubernetes
 alias k=kubectl
