@@ -8,3 +8,15 @@ set -gx GOPATH $HOME/code/go
 
 # Set JAVA_HOME
 set -gx JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
+
+# Aliases
+## System
+alias ll='ls -lah'
+
+## Kubernetes
+alias k=kubectl
+alias kc=kubectx
+alias kt=kubetail
+alias kf=kubefwd
+alias kp=kubeps
+alias kn=kubens
