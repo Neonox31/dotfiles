@@ -25,7 +25,7 @@
   m = merge --no-ff
   pr = pull --rebase
   ps = push
-  psf = push -f
+  psf = push --force-with-lease
   f = fetch
 
 [user]
