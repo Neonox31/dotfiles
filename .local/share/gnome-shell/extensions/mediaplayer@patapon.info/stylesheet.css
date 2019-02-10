@@ -1,0 +1,58 @@
+.player-buttons {
+    spacing: 2px;
+}
+
+.medium-player-button {
+    padding: 0 6px;
+}
+.large-player-button {
+    padding: 0 8px;
+}
+
+.panel-media-indicator {
+  min-width: 288px;
+  max-width: 288px;
+}
+
+.large-cover-icon {
+  icon-size: 128px !important;
+}
+
+.small-cover-icon {
+  icon-size: 48px !important;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.no-padding-top {
+    padding-top: 0px;
+}
+
+.no-padding-bottom {
+    padding-bottom: 0px;
+}
+
+.pithos-rating-box {
+    spacing: 6px;
+}
+
+.track-info-artist {
+  font-weight: bold;
+}
+
+.track-info-title {
+  font-size: small;
+}
+
+.track-info-album {
+  font-size: x-small;
+}
+
+.star-icon {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+}

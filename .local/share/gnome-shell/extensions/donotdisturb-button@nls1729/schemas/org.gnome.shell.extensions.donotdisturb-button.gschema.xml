@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="nls1729-extensions">
+  <schema path="/org/gnome/shell/extensions/donotdisturb-button/" id="org.gnome.shell.extensions.donotdisturb-button">
+    <key type="as" name="shortcut">
+      <default><![CDATA[[]]]></default>
+      <summary>Toggle shortcut.</summary>
+      <description>The keyboard shortcut to toggle the do not disturb button state.</description>
+    </key>
+    <key type="b" name="panel-icon-center">
+      <default>true</default>
+      <summary>Center if true.</summary>
+      <description>If true panel button icon position left center or right center.</description>
+    </key>
+    <key type="b" name="panel-icon-left">
+      <default>true</default>
+      <summary>Left if true.</summary>
+      <description>Panel button icon position left, right, left center, or right center.</description>
+    </key>
+    <key type="b" name="panel-count-show">
+      <default>true</default>
+      <summary>Show message count if true.</summary>
+      <description>If true, display the number of notifications.</description>
+    </key>
+    <key type="b" name="busy-state">
+      <default>false</default>
+      <summary>Persisten busy state.</summary>
+      <description>If true, busy state is set at enable.</description>
+    </key>
+    <key type="b" name="override">
+      <default>false</default>
+      <summary>Override persistent busy state at session startup.</summary>
+      <description>If true, determine state from overrride-busy-state.</description>
+    </key>
+    <key type="b" name="overrride-busy-state">
+      <default>false</default>
+      <summary>Busy state .</summary>
+      <description>If true, state is set busy at startup.</description>
+    </key>
+    <key type="b" name="reset-icon">
+      <default>false</default>
+      <summary>Effect change of panel button icon.</summary>
+      <description>When toggled the extension is disabled and then enabled.</description>
+    </key>
+    <key type="s" name="available-icon">
+      <default>"default"</default>
+      <summary>Available icon path.</summary>
+      <description>Default or selected icon path.</description>
+    </key>
+    <key type="s" name="busy-icon">
+      <default>"default"</default>
+      <summary>Busy icon path.</summary>
+      <description>Default or selected icon path.</description>
+    </key>
+  </schema>
+</schemalist>
