@@ -31,6 +31,7 @@
 [user]
   #name = WEBER Logan
   #email = 
+  #signingkey =
 
 [push]
   default = simple
@@ -38,4 +39,11 @@
 [core]
   editor = vim
   whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+
+[commit]
+  gpgsign = true
+
+[includeIf "gitdir:~/code/code.webfactory.intelligence-airbusds.com"]
+  path = ~/.gitconfig-webfactory
+
 
