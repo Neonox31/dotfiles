@@ -1,7 +1,7 @@
 set fish_greeting ""
 
 # Set PATH : 
-set -gx PATH /usr/local/go/bin ./node_modules/.bin $HOME/code/go/bin $PATH
+set -gx PATH $HOME/.local/bin /usr/local/go/bin ./node_modules/.bin $HOME/code/go/bin $PATH
 
 # Set GOPATH
 set -gx GOPATH $HOME/code/go
