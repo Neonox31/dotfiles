@@ -44,6 +44,9 @@
 [commit]
   gpgsign = true
 
+[ghq]
+  root = ~/code
+
 [includeIf "gitdir:~/code/code.webfactory.intelligence-airbusds.com"]
   path = ~/.gitconfig-webfactory
 
